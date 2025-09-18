@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+    background: orange;
+    padding: 15px 30px;
+
+}
+
+.logo{
+
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+
+}
+
+nav ul{
+
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+
+}
+nav ul li a:hover{
+    color: rgb(0, 0, 0);
+
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  padding: 70px 20px;
+  align-items: center;
+  flex: 1;
+  
+}
+
+
+ 
+main h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: rgb(226, 161, 55);
+
+
+}
+
+main p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555;
+}
+main img{
+    width:320px;
+    border-radius: 20px;
+ box-shadow: 2px 2px 5px rgb(225, 154, 48), -2px -2px 5px rgb(9, 9, 15);
+ transition: 0.3s,box-shadow o.3s;
+
+
+
+}
+img:hover{
+    transform: scale(1.1); rotate: (2deg);
+    opacity: 0.9;
+
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5); 
+
+}
+footer{
+ 
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transition: 0.3s
+   
+   
+  
+  
+}
+.footer a:hover{
+    color: lightblue;
+    transform: scale(1.2)
+}
